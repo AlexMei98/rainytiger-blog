@@ -27,7 +27,7 @@ sudo make install
 echo "\nINFO **: Install lua-5.3.5 ...\n"
 cd ${cur_dir} && wget -c https://www.lua.org/ftp/lua-5.3.5.tar.gz
 tar zxf lua-5.3.5.tar.gz && cd lua-5.3.5
-sed -i 's/-ldl -lreadline/-ldl -readline -lncurses/g' src/Makefile
+sed -i 's/-ldl -lreadline/-ldl -lreadline -lncurses/g' src/Makefile
 sudo make linux
 sudo make install
 
