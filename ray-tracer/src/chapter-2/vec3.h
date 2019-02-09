@@ -21,7 +21,7 @@ public:
 	inline double b() const { return e[2]; }
 
 	inline const vec3& operator+() { return *this; }
-	inline vec3 operator-() { return vec3(-e[0], -e[1], -e[2]); }
+	inline vec3 operator-() const { return vec3(-e[0], -e[1], -e[2]); }
 	inline double operator[](int i) const { return e[i]; }
 	inline double& operator[](int i) { return e[i]; }
 
