@@ -1,4 +1,4 @@
-wget https://raw.githubusercontent.com/MRuihoo/rainytiger-blog/master/config.sh
+wget https://raw.githubusercontent.com/MRuihoo/rainytiger-blog/master/zsh.sh
 wget https://raw.githubusercontent.com/MRuihoo/rainytiger-blog/master/tmux.sh
 wget https://raw.githubusercontent.com/MRuihoo/rainytiger-blog/master/vim-with-lua.sh
 wget https://raw.githubusercontent.com/MRuihoo/rainytiger-blog/master/config.sh
