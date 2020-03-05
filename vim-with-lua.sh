@@ -46,7 +46,7 @@ sudo make install
 
 # 6. spf13-vim
 echo "\nINFO **: Install spf13-vim ...\n"
-cd ${cur_dir} && wget -c https://j.mp/spf13-vim3 -O spf13-vim.sh
+cd ${cur_dir} && wget -c https://raw.githubusercontent.com/spf13/spf13-vim/3.0/bootstrap.sh -O spf13-vim.sh
 sed -i "202a sed -i 's/amirh/vim-scripts/g' $HOME/.spf13-vim-3/.vimrc.bundles\n" spf13-vim.sh
 sh spf13-vim.sh
 
